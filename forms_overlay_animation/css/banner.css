@@ -1,0 +1,26 @@
+.wrapper-banner{
+    background-image: url(../img/sailboat.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 16.5rem 0 1rem;
+}
+.boat-link{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: #000;
+    padding: 0.5rem 1rem;
+}
+@media (min-width: 768px) {
+    .wrapper-banner {
+        padding: 20rem 0 1rem;
+    }
+}
+@media (min-width: 960px) {
+    .wrapper-banner{
+        padding: 26rem 0 1rem;
+    }
+}

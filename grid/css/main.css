@@ -1,0 +1,160 @@
+.foot-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.foto {
+    border-radius: 50%;
+    margin: auto;
+}
+
+.mini {
+    display: block;
+    border-radius: 50%;
+}
+
+.main {
+    padding: 2rem 0;
+    grid-column: 1 / -1;
+}
+
+.main-title {
+    font-size: 1.375rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.figure {
+    margin-bottom: 1.5rem;
+    flex-basis: 100%;
+}
+
+.name {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.about {
+    text-align: center;
+}
+
+.box-foto {
+    width: 7.625rem;
+    height: 7.625rem;
+    margin: auto;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.box-mini {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    background-color: #ff4e50;
+}
+
+.yellow {
+    background-color: #ffa507;
+}
+
+.green {
+    background-color: #1cd7ad;
+}
+
+.blue {
+    background-color: #4e73db;
+}
+
+.about {
+    color: #8f8f8f;
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    line-height: 1;
+}
+
+.btn-main {
+    font-size: 0.9rem;
+    color: #ff4e50;
+    font-weight: 700;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0.75rem 4.8rem;
+    border-radius: 2rem;
+    display: block;
+    border: 0.1rem solid #ff4e50;
+    margin: auto;
+    outline: none;
+}
+
+@media (min-width: 768px) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-between;
+        min-height: 32rem;
+    }
+
+    .figure {
+        flex-basis: 45%;
+        margin-bottom: 2rem;
+    }
+
+    .name {
+        line-height: 2.5;
+    }
+
+    .main {
+        padding: 2rem 0;
+        grid-column: 2 / -2;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        min-height: 15rem;
+    }
+
+    .figure {
+        flex-basis: 24%;
+    }
+
+    .btn-main {
+        padding: 0.75rem 1.5rem;
+    }
+
+    .main-title {
+        margin-bottom: 2rem;
+    }
+    /*.main {*/
+        /*padding: 4rem 0;*/
+        /*grid-column: 1 / -1;*/
+    /*}*/
+}

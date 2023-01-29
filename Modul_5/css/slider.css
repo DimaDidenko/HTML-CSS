@@ -1,0 +1,50 @@
+.main-section {
+    padding: 245px 0;
+}
+
+.slider {
+    width: 736px;
+    margin: 0 81px 0 81px;
+    display: inline-block;
+    line-height: 64px;
+}
+
+.head-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 58px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.text {
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.right {
+    content: "\003E";
+    color: #fff;
+    font-size: 100px;
+}
+
+.left {
+    content: "\003C";
+    color: #fff;
+    font-size: 100px;
+}
+
+.arrow {
+    width: 104px;
+    height: 104px;
+    background-color: #1abc9c;
+    display: inline-block;
+    text-align: center;
+    line-height: 104px;
+}
+
+.arrow:hover {
+    background-color: #f4a460;
+}

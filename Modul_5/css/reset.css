@@ -1,0 +1,39 @@
+@import "slider.css";
+@import "header.css";
+@import "footer.css";
+@import "main.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-wrapper {
+    background-color: #fff;
+    height: 90px;
+}
+
+.slider-wrapper {
+    background-image: url(../image/fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.card-wrapper {
+    background-color: #e9f0fd;
+    height: 675px;
+}
+
+.footer-wrapper {
+    background-color: #323232;
+    height: 90px;
+}
+
+.container {
+    width: 1110px;
+    margin: auto;
+    font-size: 0;
+}

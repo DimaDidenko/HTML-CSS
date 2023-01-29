@@ -1,0 +1,54 @@
+.contant{
+    padding: 100px 0 95px;
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 380px;
+}
+.text-about{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.title{
+    color: #333;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title:after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 30px auto 0;
+}
+.about{
+    flex-basis: 32%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.sub{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.text{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    line-height: 30px;
+}
+.box, .little-pic{
+    margin-left: 30px;
+}
+

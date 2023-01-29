@@ -1,0 +1,36 @@
+.big-input {
+  display: flex;
+  flex-basis: 48.5%;
+  border-radius: 4px;
+  border: none;
+  text-transform: uppercase;
+  padding: 0 0 8rem 1rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.valid[required]:invalid {
+  outline: 0.12rem solid #f00;
+}
+
+.valid[required]:valid {
+  outline: 0.12rem solid #19bd25;
+}
+
+.submit {
+  display: block;
+  margin: auto;
+  flex-basis: 25%;
+  padding: 22px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #fed136;
+  border-radius: 4px;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+}

@@ -1,0 +1,76 @@
+.wrapper-overlay {
+    width: 1110px;
+    font-size: 0;
+    margin: auto;
+}
+
+.img {
+    width: 350px;
+    height: 250px;
+    display: block;
+}
+
+.box {
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+}
+
+.h2 {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #303030;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.span {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #f00;
+}
+
+.box:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.box:nth-child(-n+3) {
+    margin-bottom: 50px;
+}
+
+.overlay {
+    display: none;
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    background-color: #ff4500;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.icon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.text {
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.box:hover > .overlay {
+    display: block;
+}

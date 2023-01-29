@@ -1,0 +1,90 @@
+.text-gallery {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 140px 80px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.name {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #7a7a7a;
+    margin-bottom: 8px;
+}
+
+.man-bio {
+    font-size: 14px;
+    color: #cacaca;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+.bio {
+    padding: 20px 0;
+}
+
+.picture {
+    margin-bottom: 10px;
+    background-color: #95e1d3;
+    position: relative;
+}
+
+.man-foto {
+    display: block;
+    transition: 1s;
+}
+
+.picture:hover > .man-foto {
+    transform: translate(-15px, -15px);
+}
+
+.overlay {
+    display: block;
+    background: linear-gradient(rgba(239, 139, 138, 0.9), rgba(237, 213, 135, 0.9));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 1s;
+}
+
+.overlay:hover {
+    opacity: 1;
+    transform: translate(-15px, -15px);
+}
+
+.sub-overlay {
+    width: 224px;
+    height: 56px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box-picture{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fce38a;
+    border: 1px solid rgba(239, 139, 138, 1);
+}
+.box-picture:hover{
+    background-color: #95e1d3;
+}

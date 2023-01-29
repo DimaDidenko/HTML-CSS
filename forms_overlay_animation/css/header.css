@@ -1,0 +1,43 @@
+.header-wrapper{
+    height: 110px;
+}
+
+.container{
+    width: 940px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    line-height: 110px;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    flex-basis: 100%;
+    font-size: 28px;
+    color: #fed136;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.nav{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+}
+.sub-item{
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-family: '﻿Montserrat', sans-serif;
+}
+
+.item:last-child {
+    margin-right: 0;
+}
+
+.sub-item:hover {
+    color: #fed136;
+}

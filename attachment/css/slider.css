@@ -1,0 +1,28 @@
+.slider {
+    background-image: url(../image/bg-img-05.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0;
+}
+
+.gallery {
+    font-size: 0;
+    width: 1020px;
+    margin: auto;
+}
+
+.gallery-item {
+    margin-right: 20px;
+    transition: 1s;
+}
+
+.gallery-item:last-child {
+    margin-right: 0;
+}
+
+.gallery-item:hover {
+    transform: scale(2.8, 1.6) rotate(360deg);
+}

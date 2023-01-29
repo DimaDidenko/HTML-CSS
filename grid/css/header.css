@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.head-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-image: url(../img/bg_01_bl.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3rem 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    flex-basis: 100%;
+    text-transform: uppercase;
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+.send-it {
+    display: flex;
+    justify-self: center;
+}
+.send {
+    font-size: 1rem;
+    font-weight: 700;
+    border: 0.1rem solid transparent;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+}
+
+.send:hover {
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.text-header {
+    display: flex;
+    flex-direction: column;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+
+
+.header {
+    grid-column: 2 / -2;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    min-height: 12rem;
+    margin-bottom: 1rem;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+.title {
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 1rem;;
+    grid-column: 1 / -1;
+}
+
+.sub-title {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1rem;
+    padding: 0 2rem;
+}
+.head-btn {
+    font-size: 0.9rem;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    background-color: #ff4e50;
+    padding: 0.75rem 3rem;
+    border-radius: 2rem;
+    display: block;
+    margin: auto;
+    border: 0.1rem solid #ff4e50;
+    outline: none;
+    margin-bottom: 7rem;
+}
+
+@media (min-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .text-header {
+        grid-row: 2 / 3;
+        grid-column: 2 / -2;
+    }
+
+    .logo {
+        flex-basis: 30%;
+        text-transform: uppercase;
+        font-size: 1.375rem;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    .send-it {
+        display: flex;
+        flex-basis: 50%;
+        justify-content: flex-end;
+        align-self: flex-start;
+    }
+
+    .title {
+        text-transform: uppercase;
+        font-size: 3.25rem;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .sub-title {
+        font-size: 1.375rem;
+        margin-bottom: 2rem;
+    }
+
+    .head-btn {
+        margin-bottom: 10rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .head-btn {
+        margin-bottom: 14rem;
+    }
+    .text-header {
+        display: flex;
+        flex-direction: column;
+        grid-row: 2 / 3;
+        grid-column: 3 / 5;
+    }
+
+}
+
+
+
+
+

@@ -1,0 +1,29 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    line-height: 60px;
+    border-top: 1px solid #808080;
+}
+.footer__text-footer{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer__span{
+    color: #f48b8b;
+}
+.footer__submit{
+    padding: 12px;
+    background-color: #95e1d3;
+    width: 150px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+.footer__text-input{
+    width: 230px;
+    padding: 10px;
+}
+.login{
+    font-size: 0;
+}

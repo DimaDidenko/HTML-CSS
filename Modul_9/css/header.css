@@ -1,0 +1,99 @@
+.wrapper-header{
+    background-image: linear-gradient(rgba(239, 139, 138, 0.9), rgba(237, 213, 135, 0.9)), url(../img/fon-header.png) ;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 12rem;
+}
+/*.wrapper-header:hover{*/
+    /*background: linear-gradient(rgba(239, 139, 138, 0.5), rgba(237, 213, 135, 0.5));*/
+/*}*/
+
+.header {
+    display: flex;
+    line-height: 5.625rem;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.header__sub-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    color: #ffffff;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.875rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.item {
+    display: inline-block;
+    margin-right: 3.4375rem;
+}
+
+.item:last-child {
+    margin-right: 0;
+}
+
+.header__sub-item::after {
+    content: '';
+    display: block;
+    width: 3.75rem;
+    background-color: #fce38a;
+    opacity: 0;
+    height: 0.1875rem;
+    margin: auto;
+    margin-top: -1.875rem;
+}
+
+.header__sub-item:hover:after {
+    transition: 1s;
+    content: '';
+    opacity: 1;
+}
+
+.header__sub-item:hover {
+    color: #fce38a;
+    cursor: pointer;
+    display: block;
+}
+.header-box{
+    padding: 0 7rem;
+}
+.header-box__head-text{
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 4.5rem;
+    color: #fff;
+}
+.header-box__header-title{
+    font-family: ﻿Montserrat, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 9rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+.header-box__head-btn{
+    font-family: ﻿Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #fff;
+    border: 0.2rem solid #fff;
+    padding: 0.5rem 1rem;
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    background: none;
+}
